@@ -389,7 +389,7 @@ li{list-style-type: none;}
       /* display: none; */
       position: fixed;
       bottom: 100px;
-      right: 40px;
+      right: 35px;
       z-index: 99;
       border: none;
       color: white;
