@@ -39,6 +39,15 @@ li {
   position: relative;
   clip-path: polygon(100% 0, 100% 75%, 50% 100%, 0 75%, 0 0);
 }
+@media only screen and (max-width: 879px) {
+    .header{
+        background-image: linear-gradient(
+            rgba(133, 24, 24, 0.479),
+            rgba(180, 26, 26, 0.527)
+          ),
+          url('../images/mobile\ view-01.jpg');
+    }
+}
 .header::before {
   content: '';
   position: absolute;
@@ -314,7 +323,7 @@ li {
   height: 100%;
 }
 #about {
-  padding: 15px;
+  padding-left: 15px;
 }
 @media only screen and (max-width: 686px) {
   .aboutUs {
@@ -339,7 +348,9 @@ li {
   font-size: 1.3rem;
   font-weight: 400;
 }
-
+#more-about{
+    padding-left: 15px;
+}
 #more-about i {
   font-size: 25px;
   padding-right: 10px;
