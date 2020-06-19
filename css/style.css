@@ -317,9 +317,9 @@ li {
   padding: 15px;
 }
 @media only screen and (max-width: 686px) {
-  .aboutUs {
+  /*  .aboutUs {
     margin-bottom: 50px;
-  }
+  } */
 }
 
 /* @media only screen and (max-width: 330px) {
@@ -382,6 +382,9 @@ li {
 .footer h5 {
   margin-top: 30px;
 }
+.footer-info {
+  padding: 40px;
+}
 .contactUs p {
   color: whitesmoke;
 }
@@ -410,6 +413,10 @@ li {
     float: left;
     font-size: 0.8rem;
     font-weight: bold;
+  }
+
+  .footer-info {
+    padding: 20px;
   }
 }
 
@@ -440,14 +447,14 @@ li {
 }
 
 @media only screen and (max-width: 505px) {
-  .padd {
-    padding-left: 70px;
+  .foot-info {
+    padding: 0 20px;
   }
 }
 
 @media only screen and (max-width: 360px) {
-  .padd {
+  /* .padd {
     padding-left: 50px;
-  }
+  } */
 }
 /**********************contact end********************/
